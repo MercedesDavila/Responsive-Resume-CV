@@ -251,10 +251,35 @@ img{
   border-radius: .25rem;
   transition: 3s;
   font-weight: var(--font-medium);
-  
+  margin-top: var(--mb-3);
+}
+
+.home__button-movil:hover{
+  background-color: var(--text-color);
+  color: var(--content-color);
+
 }
 /*========== SOCIAL ==========*/
+.social__container{
+  grid-template-columns: max-content;
+  gap: 1rem;
+}
 
+.social__link{
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-text-size);
+  color: var(--text-color);
+}
+
+.social__link:hover{
+  color: var(--title-color);
+}
+
+.social__icon{
+  font-size: 1.2rem;
+  margin-right: .25rem;
+}
 
 /*========== PROFILE ==========*/
 
